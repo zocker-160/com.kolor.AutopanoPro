@@ -46,7 +46,10 @@ modules:
           filename: AutopanoPro.tar.xz
           only-arches: 
             - x86_64
-          url: https://archive.org/download/autopanopro_442_20180910/Autopano%20Pro%20442.zip/AutopanoPro_Linux64_442_2018-09-10.tar.xz
-          #url: https://cdn-download.kolor.com/app/4.4.2.400_2018-09-10/AutopanoPro_Linux64_442_2018-09-10.tar.xz # dead url :(
+          # original URL
+          #url: https://cdn-download.kolor.com/app/4.4.2.400_2018-09-10/AutopanoPro_Linux64_442_2018-09-10.tar.xz
+          url: https://web.archive.org/web/20230602093933/https://cdn-download.kolor.com/app/4.4.2.400_2018-09-10/AutopanoPro_Linux64_442_2018-09-10.tar.xz
+          # alternative Archive.org URL
+          #url: https://archive.org/download/autopanopro_442_20180910/Autopano%20Pro%20442.zip/AutopanoPro_Linux64_442_2018-09-10.tar.xz
           sha256: 0d0ab28c29f2c2ef0368d0ffae77fe0ed2aa75cb79a59bef9f2c67fd86422582
           size: 42522040
